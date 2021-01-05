@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 4, 2021, 8:40:23 PM
+    Author     : Veerasekar
+*/
+
+body {
+    background-color: #f1f4f8;
+}
+.container {
+    width: 100%;
+    padding: 15px;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+.form-group input.error{
+    border-color: red;
+}
+.form-group label.error{
+    font-size: 0.8rem;
+    color: red;
+}
