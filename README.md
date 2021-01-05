@@ -29,7 +29,8 @@ https://docs.docker.com/engine/install/
 
 2.Clone the Repository
 
-`$ cd assessment` \
+`$ cd assessment` 
+`$ git clone https://github.com/Veerasekar89/ch-assessment.git . `
 
 3.Copy sample /app/.env.dev file into /app/.env and modify it.
 
