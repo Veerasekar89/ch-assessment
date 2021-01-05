@@ -1,2 +1,3 @@
 #!/bin/sh
-cd /app && php spark migrate >> null
+cd /app && composer install 
+cd /app && php spark migrate
