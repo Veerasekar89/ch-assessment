@@ -25,22 +25,22 @@ Installation
 --------------------------
 
 1. Install docker with latest version 
-https://docs.docker.com/engine/install/ 
+ https://docs.docker.com/engine/install/ 
 
-2.Clone the Repository
+2. Clone the Repository
 
-`$ cd assessment` 
-`$ git clone https://github.com/Veerasekar89/ch-assessment.git . `
+ `$ cd assessment` \
+ `$ git clone https://github.com/Veerasekar89/ch-assessment.git . `
 
-3.Copy sample /app/.env.dev file into /app/.env and modify it.
+3. Copy sample /app/.env.dev file into /app/.env and modify it.
 
-`$ cp /app/.env.dev /app/.env`
+ `$ cp /app/.env.dev /app/.env`
 
-4.Start Docker.
+4. Start Docker.
 
-`$ docker-compose up -d`
+ `$ docker-compose up -d`
 
-5.SSH into php container.
+5. SSH into php container.
 
-`$ sh script.sh`
+ `$ sh script.sh`
 

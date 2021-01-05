@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN docker-php-ext-install pdo_mysql pdo mysqli 
 
+RUN apt-get install -y git
+
 RUN \
   curl 'http://pecl.php.net/get/redis-5.3.2.tgz' -o /tmp/redis-3.1.5.tgz  \
   && cd /tmp \
